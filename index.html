@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Eddies Birthday Invitation">
   <title>Birthday Invitation</title>
-
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -194,6 +193,65 @@
       margin: 0;
       color: #121212;
       font-weight: bold;
+    }
+    
+    @media (max-width: 768px) {
+      .Borderline,
+      .aliceborderland {
+        display: none;
+      }
+      .Mainheading {
+        width: 90%;
+      }
+      .maincontent {
+        width: 90%;
+        padding: 1.5rem;
+      }
+      #detailstext {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 18rem;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 1.6rem;
+      }
+      .radiohead {
+        flex-direction: column;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+      }
+    }
+    @media (max-width: 480px) {
+      .Mainheading p {
+        font-size: 1.3rem;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      img {
+        width: 14rem;
+      }
+      .maincontent {
+        width: 95%;
+        padding: 1rem;
+      }
+      #detailstext {
+        font-size: 1.2rem;
+      }
+      .maincontent p,
+      .maincontent li {
+        font-size: 1rem;
+      }
+      textarea {
+        width: 100%;
+      }
     }
   </style>
 </head>
