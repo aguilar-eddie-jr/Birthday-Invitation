@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eddies Birthday Invitation">
+  <title>Birthday Invitation</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #E1DFD9;
+      text-align: center;
+      position: relative;
+    }
+
+    .Borderline {
+      position: absolute;
+      left: 7.5%;
+      width: 85%;
+      height: 100%;
+      border: 2px solid #D4AF37;
+      box-sizing: border-box;
+      z-index: 0;
+    }
+
+    .aliceborderland {
+      position: absolute;
+      left: 1.5%;
+      width: 97%;
+      height: 100%;
+      border: 2px solid #D4AF37;
+      box-sizing: border-box;
+      z-index: 0;
+    }
+
+    .Mainheading {
+      position: relative;
+      margin: 2rem auto;
+      background-color: #1a1a1a;
+      border-radius: 5px;
+      border: 5px solid #D4AF37;
+      width: 80%;
+    }
+
+    .Mainheading p {
+      font-size: 2rem;
+      color: #D4AF37;
+    }
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 4rem;
+      color: #D4AF37;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    a {
+      color: #876700;
+    }
+
+    img {
+      border: 10px solid #D4AF37;
+      border-radius: 50%;
+      width: 25rem;
+      box-shadow: 10px 5px 10px 5px #1212128e;
+      position: relative;
+    }
+
+    .content-box {
+      background-color: #ffffff;
+      border: 3px solid #D4AF37;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+      width: 70%;
+      margin: 3rem auto;
+      padding: 3rem;
+      text-align: left;
+      position: relative;
+      z-index: 1;
+    }
+
+    .content-box h2 {
+      text-align: center;
+      color: #000000;
+      font-family: 'Times New Roman', Times, serif;
+      border-bottom: 2px solid #D4AF37;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .content-box p, .content-box li {
+      color: #000000;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.4rem;
+      line-height: 1.6;
+    }
+
+    .content-box ul {
+      list-style: disc;
+      margin-left: 2rem;
+      padding-left: 1rem;
+    }
+
+    .Details {
+      text-align: center;
+    }
+
+    #detailstext {
+      font-size: 2rem;
+    }
+
+    .respond {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    form {
+      text-align: left;
+      width: 80%;
+      margin: 1.5rem auto;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"], select, textarea {
+      width: 70%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    textarea {
+      width: 60%;
+      height: 100px;
+      resize: none;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .radiohead {
+      display: flex;
+      gap: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #D4AF37;
+      color: #121212;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #b9962e;
+    } 
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      margin-top: 15px;
+      padding: 10px;
+      width: 100%;
+      height: 2rem;
+      background-color: #D4AF37;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer p {
+      margin: 0;
+      color: #121212;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="Borderline"></div>
+  <div class="aliceborderland"></div>
+
+  <header>
+    <div class="Mainheading">
+      <p>✨YOU’RE INVITED TO</p>
+      <h1>Eddie's Swimming Birthday<br>Party! 🥽</h1>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <img src="./bdpic.jpeg" alt="Birthday celebration image">
+    </section>
+
+    <div class="content-box">
+
+      <section class="Details">
+        <h2>DETAILS</h2>
+        <div id="detailstext">
+          <strong>December 10, 2025</strong> at <strong>5:00 PM</strong> onwards<br><br>
+          <strong>Venue:</strong><br>Water Camp Resort, Kawit, Cavite
+        </div>
+      </section>
+
+      <section>
+        <h2>WHAT TO BRING</h2>
+          <ul>
+            <li>Extra Clothes</li>
+            <li>Towel</li>
+            <li>Own Bag</li>
+            <li>And Yourself!! ✨</li>
+          </ul>
+      </section>
+
+      <section>
+        <h2>LOCATION</h2>
+          <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.8193453591552!2d120.89385547457017!3d14.437572381048343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962d357e615c57%3A0x72b81ca3d35af523!2sWater%20Camp%20Resort!5e0!3m2!1sen!2sph!4v1759851118905!5m2!1sen!2sph"
+             allowfullscreen=""
+             loading="lazy"
+             referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </section>
+
+      <section>
+        <h2>RSVP</h2>
+        <p class="respond">Please Respond by December 9th</p>
+
+        <form action="mailto:aguilareddie2323@gmail.com" method="post" enctype="text/plain">
+           <label for="name"><strong>Full Name:</strong></label>
+           <input type="text" id="name" name="name" required>
+           <label for="email"><strong>Email:</strong></label>
+           <input type="email" id="email" name="email" required>
+
+           <label><strong>Will you attend?</strong></label>
+          <div class="radiohead">
+             <input type="radio" id="yes" name="attendance" value="Yes" required>
+             <label for="yes">Yes, I want to Attend!</label>
+
+             <input type="radio" id="no" name="attendance" value="No">
+             <label for="no">Sorry, Unfortunately I can’t Attend.</label>
+          </div>
+
+            <label for="message"><strong>Message (optional):</strong></label>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br>
+
+          <input type="submit" value="Send RSVP">
+        </form>
+      </section>
+
+      <section>
+        <h2>CONTACT PERSON</h2>
+        <p><strong>Jhar Ar</strong></p>
+        <p>Number: <a href="tel:+09947420066">0994-742-0066</a></p>
+        <p>Email: <a href="mailto:aguilareddie2323@gmail.com">aguilareddie2323@gmail.com</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eddie’s Birthday Invitation.</p>
+  </footer>
+</body>
+</html>
